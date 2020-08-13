@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset="ISO-8859-1"> 
+ <title>Insert title here</title> 
+ </head> 
+ <link rel="stylesheet" href="css/form_design.css"> 
+ <script type="text/javascript" src="js/form.js"></script> 
+ <style>
+
+</style> 
+ <body> 
+ 		<div id="bdy"> 
+ 		<h2>Admin Login</h2> 
+		 
+ 			<form onsubmit="return vlidate_password()" , action="alogin"> 
+ 				<table id="tbl"> 
+					<tr> 
+						<th>User Name*</th> 
+						<td><input type="text" name="name" id="name" required="Name is required"></td> 
+					</tr> 
+					<tr> 
+					<th>Password*</th> 
+					<td><input type="password" name="password" id="password" required></td> 
+					</tr> 
+					<tr> 
+						<th></th> 
+						<td><button type="submit">Log In</button></td>  
+					</tr> 
+				</table> 
+			</form> 
+ 	</div> 
+
+ 
+ </body> 
+ </html> 
